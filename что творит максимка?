@@ -1,0 +1,12 @@
+#include <iostream>
+ #include <cctype> 
+  using namespace std;
+  int main() {
+    string slovo;
+    cout << "Введите слово: ";
+    getline (cin, slovo);
+    string registr = "";
+   for (char c : slovo){
+      registr += toupper(c);
+   }
+  cout << "Слово в верхнем регистре: " << registr << endl;}
