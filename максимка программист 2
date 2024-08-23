@@ -1,0 +1,6 @@
+#include <iostream>
+using namespace std;
+for(int i = 10; i >= 1; i--)
+  cout << " " << i;}
+  for (float i = 1; i <= 50; i+= 2)
+      cout << " " << i;}
